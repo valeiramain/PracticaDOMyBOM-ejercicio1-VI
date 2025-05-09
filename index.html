@@ -23,24 +23,33 @@
         </nav>
     </header>
     <main class="container">
-        <section class="text-center mb-3">
-            <h1 class="mt-5 mb-3 titulo">Comenzar el juego</h1>
-            <p class="text-light-emphasis">El juego consiste que al presionar el botón "Comenzar", se generará un <b>número aleatorio</b>, el cual el usuario deberá adivinar
-                ingresándolo en el casillero y presionando el botón "Enviar". Si el número fue <b>adivinado</b> por el usuario, se mostrará en la parte inferior de la pantalla.</p>
-            <button class="btn btn-secondary mb-4 p-3 fs-5 ">Comenzar ✨</button>
+        <section class="mb-3">
+            <h1 class="mt-5 mb-3 text-center titulo">Comenzar el juego</h1>
+            <!-- <p class="text-light-emphasis">El juego consiste que al presionar el botón "Comenzar", se generará un <b>número aleatorio</b>, el cual . Si el número fue <b>adivinado</b> por el usuario, se mostrará en la parte inferior de la pantalla.</p> -->
+            <h4 class="text-light-emphasis">Instrucciones:</h4>
+            <ol>
+                <li>El juego consiste en presionar el botón "Comenzar" para generar un <b>número mágico</b>.</li>
+                <li>Ingrese el número mágico que considere que será generado por el sistema y luego presione el botón "Enviar"</li>
+                <li>Si el usuario NO lo adivinó, el sistema le avizará por pantalla si el número ingresado es mayor o menor al número mágico.</li>
+                <li>Cuando el usuario adivine el número mágico, el sistema le avizará por pantalla.</li>
+                <ul></ul>
+            </ol>
+            <div class="text-center"> 
+                <button class="btn btn-secondary mb-4 p-3 fs-5 ">Comenzar ✨</button>
+                </div>
         </section>
 
         <section class="container mb-3">
             <div class="p-4 bg-light-subtle border border-light-subtle rounded-3 text-light-emphasis">
                 <form class="row justify-content-center align-items-center">
-                    <div class="col-12 col-md-auto">
+                    <div class="col-12 col-md-auto mb-2">
                         <label for="numeroAdivinado" class="col-form-label">Ingrese un número:</label>
                     </div>
-                    <div class="col-12 col-md-auto">
+                    <div class="col-12 col-md-auto mb-2">
                         <input type="number" id="numeroAdivinado" class="form-control w-100 w-md-auto"
                             placeholder="Número">
                     </div>
-                    <div class="col-12 col-md-auto">
+                    <div class="col-12 col-md-auto mb-2">
                         <button type="submit" class="btn btn-primary w-100 w-md-auto px-4 py-2 fs-6">Enviar</button>
                     </div>
                 </form>
