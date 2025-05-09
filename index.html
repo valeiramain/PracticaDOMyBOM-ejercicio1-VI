@@ -23,29 +23,32 @@
         </nav>
     </header>
     <main class="container">
-        <section class="text-center">
-            <h1 class="my-5 titulo">Comenzar el juego</h1>
-            <button class="btn btn-secondary mb-4 p-3 fs-5">Comenzar ✨</button>
+        <section class="text-center mb-3">
+            <h1 class="mt-5 mb-3 titulo">Comenzar el juego</h1>
+            <p class="text-light-emphasis">El juego consiste que al presionar el botón "Comenzar", se generará un <b>número aleatorio</b>, el cual el usuario deberá adivinar
+                ingresándolo en el casillero y presionando el botón "Enviar". Si el número fue <b>adivinado</b> por el usuario, se mostrará en la parte inferior de la pantalla.</p>
+            <button class="btn btn-secondary mb-4 p-3 fs-5 ">Comenzar ✨</button>
         </section>
 
-        <section class="container my-4">
-            <div class="p-4 bg-light-subtle border border-ligth-subtle rounded-3 text-light-emphasis">
-                <form class="row g-3 justify-content-center align-items-center">
-                    <div class="col-auto">
+        <section class="container mb-3">
+            <div class="p-4 bg-light-subtle border border-light-subtle rounded-3 text-light-emphasis">
+                <form class="row justify-content-center align-items-center">
+                    <div class="col-12 col-md-auto">
                         <label for="numeroAdivinado" class="col-form-label">Ingrese un número:</label>
                     </div>
-                    <div class="col-auto">
-                        <input type="number" id="numeroAdivinado" class="form-control" placeholder="Número">
+                    <div class="col-12 col-md-auto">
+                        <input type="number" id="numeroAdivinado" class="form-control w-100 w-md-auto"
+                            placeholder="Número">
                     </div>
-                    <div class="col-auto">
-                        <button type="submit" class="btn btn-primary px-4 py-2 fs-6">Enviar</button>
+                    <div class="col-12 col-md-auto">
+                        <button type="submit" class="btn btn-primary w-100 w-md-auto px-4 py-2 fs-6">Enviar</button>
                     </div>
                 </form>
             </div>
         </section>
 
 
-        <section class="container">
+        <section class="container mb-5">
             <div class="alert alert-success" role="alert">
                 <p>Felicitaciones!!! Adivinaste el número mágico</p>
             </div>
