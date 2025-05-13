@@ -27,3 +27,7 @@ main {
 }
 
 /* ---------------------- */
+
+.bg-form-secondary-subtle-transparent {
+  background-color: rgba(94, 136, 173, 0.4);
+}
