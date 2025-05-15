@@ -17,20 +17,20 @@ Instrucciones:
 - **CSS3**
 - [Bootstrap v5.3](https://getbootstrap.com/) 
 - JavaScript
-- [GitHub](https://github.com/) 
-- [Netlify](https://app.netlify.com/) 
+- [GitHub](https://github.com/valeiramain/PracticaDOMyBOM-ejercicio1-VI/) 
+- [Netlify](https://[https://numerosmagicos-vi.netlify.app/) 
 
 
 ## ¿Cómo probar el proyecto? ⚒️
 1. Clonar el repositorio:
    ```sh
-   git clone https://github.com/valeiramain/ProyectoECommerce-G4
+   git clone https://github.com/valeiramain/PracticaDOMyBOM-ejercicio1-VI
 1. Abrir la carpeta creada y ejecutar index.html
 
 
 ## Demo
 
-Mirá la demo del proyecto aquí:  https://proyectoecommerce-g4.netlify.app/
+Mirá la demo del proyecto aquí:  https://numerosmagicos-vi.netlify.app/
 
 
 ## Autor 
