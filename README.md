@@ -3,7 +3,37 @@ Prácticas con DOM y BOM
 
 ## Números mágicos - Dificultad: 🟢
 
-1- Crea una web con Bootstrap y JS, que contenga un botón comenzar el juego, en ese momento se crea un número aleatorio que el usuario deberá adivinar, la interfaz del usuario debe tener además un input para ingresar un número y un botón enviar.  
-Al presionar el botón enviar mostrar en un alert si el usuario adivinó o no el número mágico.  
-Si no lo adivinó, indicarle con un alert si el número que ingresó es mayor o menor al número mágico.  
-Cuando el usuario adivine el número mostrar un mensaje indicando al usuario que adivinó el número.
+Instrucciones:
+
+- El juego consiste en presionar el botón "Comenzar" para generar un Número Mágico.
+
+- Luego ingrese el número mágico (entre 0 y 100) que considere que será generado por el sistema y presione el botón "Enviar"
+
+- Si el usuario NO lo adivinó, el sistema le avizará por pantalla si el número ingresado es mayor o menor al número mágico para que continúe intentado.
+- Cuando el usuario adivine el número mágico, el sistema le avizará por pantalla y finalizará el juego.
+## Tecnologías Utilizadas ⚙️
+- [Visual Studio Code](https://code.visualstudio.com/)
+- **HTML5**
+- **CSS3**
+- [Bootstrap v5.3](https://getbootstrap.com/) 
+- JavaScript
+- [GitHub](https://github.com/) 
+- [Netlify](https://app.netlify.com/) 
+
+
+## ¿Cómo probar el proyecto? ⚒️
+1. Clonar el repositorio:
+   ```sh
+   git clone https://github.com/valeiramain/ProyectoECommerce-G4
+1. Abrir la carpeta creada y ejecutar index.html
+
+
+## Demo
+
+Mirá la demo del proyecto aquí:  https://proyectoecommerce-g4.netlify.app/
+
+
+## Autor 
+- **Valentina Iramain**
+    - [LinkedIn](https://www.linkedin.com/in/valentinairamain)
+    - [GitHub](https://github.com/valeiramain)

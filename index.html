@@ -25,17 +25,17 @@
     <main class="container">
         <section class="mb-3">
             <h1 class="mt-5 mb-3 text-center titulo">Comenzar el juego</h1>
-            <!-- <h4 class="text-light-emphasis">Instrucciones:</h4>
+            <h4 class="text-light-emphasis">Instrucciones:</h4>
             <ol>
                 <li>El juego consiste en presionar el botón "Comenzar" para generar un <b>número mágico</b>.</li>
                 <li>Ingrese el número mágico (entre 0 y 100) que considere que será generado por el sistema y luego
                     presione el botón
                     "Enviar"</li>
                 <li>Si el usuario NO lo adivinó, el sistema le avizará por pantalla si el número ingresado es mayor o
-                    menor al número mágico.</li>
-                <li>Cuando el usuario adivine el número mágico, el sistema le avizará por pantalla.</li>
+                    menor al número mágico para que continúe intentado.</li>
+                <li>Cuando el usuario adivine el número mágico, el sistema le avizará por pantalla y finalizará el juego.</li>
                 <ul></ul>
-            </ol> -->
+            </ol>
             <div class="text-center">
                 <button class="btn btn-secondary mb-4 p-3 fs-5" id="btnComenzar">Comenzar ✨</button>
             </div>
@@ -61,8 +61,8 @@
         </section>
 
         <section class="container mb-5">
-            <div class="alert alert-primary text-center" role="alert">
-                <p class="fs-5" id="textoAlert">El juego a Comenzado ...</p>
+            <div class="alert alert-primary text-center" role="alert" id="colorAlert">
+                <p class="fs-5" id="textoAlert">Presione botón Comenzar</p>
             </div>
         </section>
     </main>
